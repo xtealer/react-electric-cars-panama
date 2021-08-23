@@ -1,0 +1,78 @@
+/*medium and smaller devices*/
+@media (max-width: 767.99px) {
+  .social-icon {
+    height: 2.3em !important;
+    width: auto;
+  }
+}
+
+.rv-xy-plot__axis__tick {
+  font-size: 0.8em;
+}
+
+.bg-black {
+  background-color: #000;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  background-color: #000;
+  opacity: 0.5;
+}
+
+.collapsed {
+  display: none; /* hide it for small displays */
+}
+@media (min-width: 992px) {
+  .collapsed {
+    display: block;
+    margin-left: -25%; /* same width as sidebar */
+  }
+}
+
+/* ----- Regular CSS Classes ----- */
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.h-scroll {
+  width: 80%;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+li::marker {
+  font-weight: 700;
+}
+
+ol {
+  list-style-position: inside;
+}
+
+.social-icon {
+  height: 4em;
+  width: auto;
+}
+
+.carousel-slide > image {
+  max-height: 25vh;
+  min-height: 25vh;
+  max-width: 35vw;
+  min-width: 35vw;
+}

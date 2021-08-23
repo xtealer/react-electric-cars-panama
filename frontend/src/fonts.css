@@ -1,0 +1,13 @@
+/* ------ imported fonts ------ */
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Trade+Winds&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Trade Winds' !important;
+}
+
+p,
+a,
+li {
+  font-family: 'Montserrat' !important;
+}
